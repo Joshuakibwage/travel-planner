@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="px-12 relative mx-auto text-base">
             <div className="flex justify-between items-center">
                 <div className="flex items-center shrink-0">
-                    <LuTreePalm className="text-emerald-400" size={30}/>
+                    <LuTreePalm className="text-emerald-400" size={40}/>
                     <div className="span tracking-tight text-3xl">
                         <b className="bg-gradient-to-r from-blue-400 to-emerald-600 text-transparent bg-clip-text font-circular-web">Nomadic</b>
                     </div>
