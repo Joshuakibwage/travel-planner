@@ -20,7 +20,7 @@ const Navbar = () => {
     }
 
   return (
-    <nav className="sticky z-50 top-0 left-0 backdrop-blur-md border-b border-neutral-700/50 shadow-md py-3">
+    <nav className="sticky z-50 top-0 left-0 backdrop-blur-md border-b border-neutral-700/20 shadow-xl py-3">
         <div className="px-12 relative mx-auto text-base">
             <div className="flex justify-between items-center">
                 <div className="flex items-center shrink-0">
@@ -31,10 +31,11 @@ const Navbar = () => {
                 </div>
                 <ul className="hidden md:flex space-x-5 ">
                     <NavLink style={navLinkStyles} className="hover:text-emerald-400" to="/">HOME</NavLink>
-                    <li className="hover:text-emerald-400">ACTIVITIES</li>
-                    <li className="hover:text-emerald-400">PLACES</li>
-                    <li className="hover:text-emerald-400">ABOUT</li>
-                    <li className="hover:text-emerald-400">CONTACT</li>
+                    <NavLink style={navLinkStyles} className="hover:text-emerald-400" to="/activities">ACTIVITIES</NavLink>
+                    <NavLink style={navLinkStyles} className="hover:text-emerald-400" to="/places">PLACES</NavLink>
+                    <NavLink style={navLinkStyles} className="hover:text-emerald-400" to="/about">ABOUT</NavLink>
+                    <NavLink style={navLinkStyles} className="hover:text-emerald-400" to="/contact">CONTACT US</NavLink>
+                  
                 </ul>
                 <div className="hidden md:flex">
                     <button className="px-6 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-blue-400 to-emerald-500">Sign Up</button>
