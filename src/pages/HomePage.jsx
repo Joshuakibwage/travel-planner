@@ -8,7 +8,7 @@ const HomePage = () => {
         <div className="w-full relative h-screen overflow-x-hidden ">
             <img className="w-full h-screen object-cover object-center" src={pic} alt="background image" />
             <div className="w-full h-screen absolute bg-black/20 top-0 left-0">
-              <div className="w-3/4 absolute left-[5%] top-[30%] z-[10]">
+              <div className="w-3/4 absolute left-[5%] top-[20%] z-[10]">
                   <h1 className="
                 text-white font-semibold text-3xl sm:text-4xl md:text-5xl lg:text-7xl leading-normal font-general">Travel the world <br /> with amazing people</h1>
                 <p className="text-white my-3 md:text-xl flex flex-wrap">Discover breathtaking destinations, plan your perfect getaway, and book effortlessly—all in one place.</p>
