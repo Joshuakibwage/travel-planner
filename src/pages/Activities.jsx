@@ -1,8 +1,11 @@
+import ActivityCards from "../components/ActivityCards"
 
 
 const Activities = () => {
   return (
-    <div>Activities</div>
+    <div className="w-full h-screen">
+      <ActivityCards />
+    </div>
   )
 }
 

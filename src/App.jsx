@@ -6,28 +6,29 @@ import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Places from "./pages/Places";
 import ErrorPage from "./pages/ErrorPage";
+import Footer from "./components/Footer";
  
 
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<><Navbar /><HomePage /></>
+    element:<><Navbar /><HomePage /><Footer /></>
   },
   {
     path:'/activities',
-    element:<><Navbar /><Activities /></>
+    element:<><Navbar /><Activities /><Footer /></>
   },
   {
     path:'/places',
-    element:<><Navbar /><Places /></>
+    element:<><Navbar /><Places /><Footer /></>
   },
   {
     path:'/about',
-    element:<><Navbar /><About /></>
+    element:<><Navbar /><About /><Footer /></>
   },
   {
     path:'/contact',
-    element:<><Navbar /><ContactUs /></>
+    element:<><Navbar /><ContactUs /><Footer /></>
   },
   {
     path:'*',

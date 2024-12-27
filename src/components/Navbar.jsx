@@ -21,12 +21,12 @@ const Navbar = () => {
 
   return (
     <nav className="sticky z-50 top-0 left-0 backdrop-blur-md border-b border-neutral-700/20 shadow-xl py-3">
-        <div className="px-12 relative mx-auto text-base">
+        <div className="px-6 relative mx-auto text-base">
             <div className="flex justify-between items-center">
                 <div className="flex items-center shrink-0">
                     <LuTreePalm className="text-emerald-400" size={40}/>
                     <div className="span tracking-tight text-3xl">
-                        <b className="bg-gradient-to-r from-blue-400 to-emerald-600 text-transparent bg-clip-text font-circular-web">Nomadic</b>
+                        <b className="bg-gradient-to-r from-blue-400 to-emerald-600 text-transparent bg-clip-text font-circular-web">Nomadics</b>
                     </div>
                 </div>
                 <ul className="hidden md:flex space-x-5 ">
