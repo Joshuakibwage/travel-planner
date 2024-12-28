@@ -22,7 +22,7 @@ const SearchForm = () => {
  
 
   return (
-    <div className="w-[90%] mx-auto h-[40px] border-2 bg-gradient-to-r from-blue-400 to-emerald-600 border-none flex py-10 justify-around items-center rounded-md mt-5 shadow-lg relative">
+    <div className="w-[90%] mx-auto h-[40px] border-2 bg-gradient-to-r from-blue-400 to-emerald-400 border-none flex py-10 justify-around items-center rounded-md mt-5 shadow-lg relative">
 
         <div className="flex items-center gap-4 ">
           <FaLocationDot className="text-white " size={20} />
@@ -41,13 +41,13 @@ const SearchForm = () => {
             onChange={item => setdate([item.selection])}
             moveRangeOnFirstSelection={false}
             ranges={date}
-            className="absolute top-[80%]"
+            className="absolute top-[80%] z-10"
           />}
         </div>
 
         <div className="">
-          <button className="flex items-center bg-gradient-to-r from-emerald-500 to-blue-300 px-4 py-2 rounded-full hover:scale-110 transition delay-200 ease-in-out text-white font-semibold">
-            <IoSearchOutline size={30} className="text-white"/>
+          <button className="flex items-center bg-white px-4 py-2 rounded-full hover:scale-110 transition delay-200 ease-in-out text-emerald-400 font-semibold shadow-inner">
+            <IoSearchOutline size={30} className="text-emerald-400"/>
             Find my adventure
           </button>
         </div>

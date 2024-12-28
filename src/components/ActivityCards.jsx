@@ -1,11 +1,14 @@
  
 
-const ActivityCards = () => {
+const ActivityCards = ({children, imgSrc, ...props }) => {
   return (
-    <div className="w-full h-screen overflow-x-hidden">
-        <div className="w-[10%] h-[10%] bg-blue">
-            
+    <div {...props} className="relative max-w-xs overflow-hidden rounded-2xl shadow-lg group">
+      <img src={imgSrc} alt="" className="transition-transform group-hover:scale-110 duration-200" />
+      <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent">
+        <div className="">
+           <div className="text-white p-4">{children}</div>
         </div>
+      </div>
     </div>
   )
 }

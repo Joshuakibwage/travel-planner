@@ -1,6 +1,8 @@
  import pic from "../assets/bg-hero.jpg";
  import { HiArrowLongRight } from "react-icons/hi2";
 import SearchForm from "../components/SearchForm";
+import hiking from "../assets/activities/hiking.jpg";
+import ActivityCards from "../components/ActivityCards";
 
 
 const HomePage = () => {
@@ -24,6 +26,34 @@ const HomePage = () => {
         </div>
         <div className="w-full h-screen">
             <SearchForm />
+            <div className="w-[90%] mx-auto">
+              <div className="mt-5">
+                <h1 className="text-center text-3xl text-emerald-400 font-semibold">Featured Activities</h1>
+              </div >
+              <div className="flex gap-5 mt-5">
+                <ActivityCards imgSrc={hiking} className="px-12" >
+                    <h3 className="text-xl font-semibold mb-2">Hiking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa sed iure qui mollitia deserunt saepe. </p>
+                </ActivityCards>
+                <ActivityCards imgSrc={hiking} className="px-12" >
+                    <h3 className="text-xl font-semibold mb-2">Hiking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa sed iure qui mollitia deserunt saepe. </p>
+                    <button className="bg-emerald-500 px-4 py-1 flex items-center rounded-full mt-4 font-semibold">
+                      Learn More
+                      <HiArrowLongRight size={30}/>
+                    </button>
+                </ActivityCards>
+                <ActivityCards imgSrc={hiking} className="px-12" >
+                    <h3 className="text-xl font-semibold mb-2">Hiking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa sed iure qui mollitia deserunt saepe. </p>
+                </ActivityCards>
+                <ActivityCards imgSrc={hiking} className="px-12" >
+                    <h3 className="text-xl font-semibold mb-2">Hiking</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa sed iure qui mollitia deserunt saepe. </p>
+                </ActivityCards>
+              </div>
+              
+            </div>
         </div>
         
     </main>

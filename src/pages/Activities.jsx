@@ -4,7 +4,10 @@ import ActivityCards from "../components/ActivityCards"
 const Activities = () => {
   return (
     <div className="w-full h-screen">
-      <ActivityCards />
+      <ActivityCards 
+       location="Argentina"
+       price={40}
+      />
     </div>
   )
 }
