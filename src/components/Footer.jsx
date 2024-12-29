@@ -4,12 +4,12 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa6";
 import { FaYoutube } from "react-icons/fa";
-import photo from "../assets/bg-footer.jpg";
+
 
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-fuchsia-400 h-[20%] bg-[url('/src/assets/bg-footer.jpg')]">
+    <footer className="w-full h-[20%]">
         <div className="w-[90%] h-[90%] my-10 mx-auto flex justify-around shadow-lg rounded-md backdrop-blur-md py-4">
          <div className="flex items-center">
             <LuTreePalm className="text-emerald-400" size={40}/>
@@ -24,10 +24,10 @@ const Footer = () => {
           <ul className="flex flex-col items-center">
             <li>Quick Links</li>
             <Link to='/'><li>Home</li></Link>
-            <Link to='/'><li>Activities</li></Link>
-            <Link to='/'><li>Places</li></Link>
-            <Link to='/'><li>About</li></Link>
-            <Link to='/'><li>Contact Us</li></Link>
+            <Link to='/activities'><li>Activities</li></Link>
+            <Link to='/places'><li>Places</li></Link>
+            <Link to='/about'><li>About</li></Link>
+            <Link to='/contact'><li>Contact Us</li></Link>
           </ul>
          </div>
          <div>

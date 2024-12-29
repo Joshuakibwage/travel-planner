@@ -26,7 +26,7 @@ const Navbar = () => {
                 <div className="flex items-center shrink-0">
                     <LuTreePalm className="text-emerald-400" size={40}/>
                     <div className="span tracking-tight text-3xl">
-                        <b className="bg-gradient-to-r from-blue-400 to-emerald-600 text-transparent bg-clip-text font-circular-web">Nomadics</b>
+                        <b className="bg-gradient-to-r from-blue-400 to-emerald-600 text-transparent bg-clip-text font-poppins">Nomadics</b>
                     </div>
                 </div>
                 <ul className="hidden md:flex space-x-5 ">
