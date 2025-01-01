@@ -9,8 +9,9 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-[20%]">
-        <div className="w-[90%] h-[90%] my-10 mx-auto flex justify-around shadow-lg rounded-md backdrop-blur-md py-4">
+    <footer className="w-full h-[20%] ">
+        <div className="
+        w-[90%] h-[90%] my-10 mx-auto flex justify-center shadow-lg rounded-md backdrop-blur-md py-4">
          <div className="flex items-center">
             <LuTreePalm className="text-emerald-400" size={40}/>
             <div className="span tracking-tight text-3xl">
@@ -22,7 +23,7 @@ const Footer = () => {
          </div>
          <div>
           <ul className="flex flex-col items-center">
-            <li>Quick Links</li>
+            <li className="font-semibold">Quick Links</li>
             <Link to='/'><li>Home</li></Link>
             <Link to='/activities'><li>Activities</li></Link>
             <Link to='/places'><li>Places</li></Link>
@@ -32,12 +33,12 @@ const Footer = () => {
          </div>
          <div>
           <ul className="flex flex-col items-center">
-            <li>Support</li>
+            <li className="font-semibold">Support</li>
             <li>FAQS</li>
           </ul>
          </div>
          <div>
-          <h2>Our Socials</h2>
+          <h2 className="font-semibold">Our Socials</h2>
             <div className="flex items-center space-x-4">
               <FaFacebook size={20}/>
               <p>Facebook</p>

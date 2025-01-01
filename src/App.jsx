@@ -1,22 +1,22 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
-import Activities from "./pages/Activities";
 import About from "./pages/About";
 import ContactUs from "./pages/ContactUs";
 import Places from "./pages/Places";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer";
+import ActivityPage from "./pages/ActivityPage";
  
 
 const router = createBrowserRouter([
   {
     path:'/',
-    element:<><Navbar /><HomePage /></>
+    element:<><Navbar /><HomePage /><Footer /></>
   },
   {
     path:'/activities',
-    element:<><Navbar /><Activities /><Footer /></>
+    element:<><Navbar /><ActivityPage/></>
   },
   {
     path:'/places',
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path:'/about',
-    element:<><Navbar /><About /></>
+    element:<><Navbar /><About /><Footer /></>
   },
   {
     path:'/contact',

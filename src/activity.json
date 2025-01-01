@@ -1,0 +1,165 @@
+
+
+[
+    {
+        "id": 0,
+        "title" : "Hiking",
+        "duration": "5 hrs",
+        "location" : "Norway",
+        "details": "Hiking in Norway is an incredible experience, offering some of the most stunning landscapes in the world.",
+        "image" : "https://images.pexels.com/photos/19139413/pexels-photo-19139413/free-photo-of-festvagtind-henningsvaer-randonnee-voyage-tourisme-lofoten.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 hrs",
+        "details": "Paragliding in India offers breathtaking experiences with diverse landscapes, from the Himalayan mountains to coastal regions.",
+        "id": 1,
+        "title" : "Paragliding",
+        "location" : "India",
+        "image" : "https://images.pexels.com/photos/15582961/pexels-photo-15582961/free-photo-of-a-person-with-a-parachute.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 hrs",
+        "details": "Kayaking in Croatia is an unforgettable experience, offering turquoise waters, rugged coastlines, hidden coves, and charming islands. ",
+        "id": 2,
+        "title" : "Kayaking",
+        "location" : "Croatia",
+        "image" : "https://images.pexels.com/photos/3413678/pexels-photo-3413678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "2 nights",
+        "details": "From world-class nightclubs and bars to dazzling shows and casinos, there’s something for everyone in Vegas.",
+        "id": 3,
+        "title" : "Nightlife",
+        "location" : "LasVegas",
+        "image" : "https://images.pexels.com/photos/13146356/pexels-photo-13146356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "4 hrs",
+        "details": "Known as the birthplace of surfing, Hawaii caters to all levels, from beginners to seasoned pros.",
+        "id": 4,
+        "title" : "Surfing",
+        "location" : "Hawaii",
+        "image" : "https://images.pexels.com/photos/5007367/pexels-photo-5007367.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "5 hrs",
+        "details": "Snorkeling in the Maldives is a dreamlike experience, offering crystal-clear waters, vibrant coral reefs, and an incredible variety of marine life.",
+        "id": 5,
+        "title" : "Snorkeling",
+        "location" : "Maldives",
+        "image" : "https://images.pexels.com/photos/10498911/pexels-photo-10498911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 nights",
+        "details": "Whether you're looking to go on a wildlife safari, explore the great outdoors, or just enjoy the serenity of nature, Kenya has plenty of opportunities for camping.",
+        "id": 6,
+        "title" : "Camping",
+        "location" : "Kenya",
+        "image" : "https://images.pexels.com/photos/2819554/pexels-photo-2819554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "1 day",
+        "details": "Ireland is home to both resident bird species and migratory birds that pass through during certain seasons.",
+        "id": 7,
+        "title" : "BirdWatching",
+        "location" : "Ireland",
+        "image" : "https://images.pexels.com/photos/29982341/pexels-photo-29982341/free-photo-of-great-tit-perched-on-twig-in-lush-foliage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "7 hrs",
+        "details": "Riders of all levels can enjoy scenic trails through national parks, historic estates, and charming countryside.",
+        "id": 8,
+        "title" : "Horse Riding",
+        "location" : "England",
+        "image" : "https://images.pexels.com/photos/1524620/pexels-photo-1524620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "5 hrs",
+        "details": "Snowboarding in Finland offers a unique experience, quite different from the Alps or Rockies. ",
+        "id": 9,
+        "title" : "Snow boarding",
+        "location" : "Finland",
+        "image" : "https://images.pexels.com/photos/1903935/pexels-photo-1903935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "2 days",
+        "details": "Ice skating in Canada is a quintessential winter experience, offering everything from iconic outdoor rinks to scenic frozen lakes.",
+        "id": 10,
+        "title" : "IceSkating",
+        "location" : "Canada",
+        "image" : "https://images.pexels.com/photos/11013926/pexels-photo-11013926.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "8 hrs",
+        "details": "Nairobi offers several exciting go-karting options for those seeking an adrenaline rush. ",
+        "id": 11,
+        "title" : "Go-kart",
+        "location" : "Nairobi",
+        "image" : "https://images.pexels.com/photos/18343976/pexels-photo-18343976/free-photo-of-go-kart-on-racing-track.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    { 
+        "duration": "7 hrs",
+        "details": "Suitable for all levels, from beginners to advanced divers, including iconic spots like Cod Hole and the SS Yongala wreck.",  
+        "id": 12, 
+        "title": "Scuba Diving", 
+        "location": "Great Barrier Reef", 
+        "image": "https://images.pexels.com/photos/4621621/pexels-photo-4621621.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "1 hr",
+        "details": "Sky diving offers breathtaking views of the city's iconic landmarks and the vast desert landscape. ",
+        "id": 13,
+        "title" : "Sky diving",
+        "location" : "Dubai",
+        "image" : "https://images.pexels.com/photos/28153230/pexels-photo-28153230/free-photo-of-sky-diving.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 hrs",
+        "details": "Hot air balloon rides in Turkey, particularly in Cappadocia, are a truly magical experience.",
+        "id": 13,
+        "title" : "Hot air balloon",
+        "location" : "Turkey",
+        "image" : "https://images.pexels.com/photos/27739913/pexels-photo-27739913/free-photo-of-an-aerial-view-of-a-hot-air-balloon-with-the-words-antikalons.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 days",
+        "details": "South Africa is renowned for its incredible biodiversity and abundant wildlife, offering unparalleled safari experiences.",
+        "id": 13,
+        "title" : "Wildlife",
+        "location" : "South Africa",
+        "image" : "https://images.pexels.com/photos/29973776/pexels-photo-29973776/free-photo-of-graceful-antelope-resting-in-african-savanna.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 hrs",
+        "details": "Immerse yourself in art and history at world-renowned institutions like the Louvre in Paris or the British Museum in London.",
+        "id": 13,
+        "title" : "Museum",
+        "location" : "Belfast",
+        "image" : "https://images.pexels.com/photos/1650904/pexels-photo-1650904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "2 hrs",
+        "details": " Pamper yourself with rejuvenating treatments at luxurious spas in countries like Bali or Thailand.",
+        "id": 13,
+        "title" : "Spa retreats",
+        "location" : "Thailand",
+        "image" : "https://images.pexels.com/photos/3212179/pexels-photo-3212179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "1 week",
+        "details": "Discover multiple destinations and enjoy onboard amenities on a relaxing cruise.",
+        "id": 13,
+        "title" : "Cruise",
+        "location" : "Bali",
+        "image" : "https://images.pexels.com/photos/29673823/pexels-photo-29673823/free-photo-of-carnival-magic-cruise-ship-on-open-ocean.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "duration": "3 hrs",
+        "details": "Discover unique handicrafts, local produce, and traditional products at bustling markets around the globe.",
+        "id": 13,
+        "title" : "Local markets",
+        "location" : "Nigeria",
+        "image" : "https://images.pexels.com/photos/29630134/pexels-photo-29630134/free-photo-of-african-market-scene-with-traditional-bowls-nigeria.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  
+]

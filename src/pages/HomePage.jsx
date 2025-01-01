@@ -1,8 +1,9 @@
  import pic from "../assets/bg-hero.jpg";
  import { HiArrowLongRight } from "react-icons/hi2";
 import SearchForm from "../components/SearchForm";
-import hiking from "../assets/activities/hiking.jpg";
-import ActivityCards from "../components/ActivityCards";
+// import hiking from "../assets/activities/hiking.jpg";
+// import ActivityCards from "../components/ActivityCards";
+
 
 
 const HomePage = () => {
@@ -26,7 +27,7 @@ const HomePage = () => {
         </div>
         <div className="w-full h-screen">
             <SearchForm />
-            <div className="w-[90%] mx-auto">
+            {/* <div className="w-[90%] mx-auto">
               <div className="mt-5">
                 <h1 className="text-center text-3xl text-emerald-400 font-semibold">Featured Activities</h1>
               </div >
@@ -53,7 +54,7 @@ const HomePage = () => {
                 </ActivityCards>
               </div>
               
-            </div>
+            </div> */}
         </div>
         
     </main>
