@@ -2,7 +2,7 @@ import { LuTreePalm } from "react-icons/lu";
 import { CgMenuGridO } from "react-icons/cg";
 import { IoCloseCircle } from "react-icons/io5";
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link} from "react-router-dom";
 
 const Navbar = () => {
 
@@ -52,11 +52,11 @@ const Navbar = () => {
             {menu && (
                 <div className="md:hidden fixed p-12 left-0 z-20 top-14 w-full bg-slate-100 text-black flex flex-col items-center justify-center transition delay-300">
                     <ul className=" text-xl font-semibold text-center">
-                        <li className="py-2 hover:text-emerald-400">HOME</li>
-                        <li className="py-2 hover:text-emerald-400">ACTIVITIES</li>
-                        <li className="py-2 hover:text-emerald-400">PLACES</li>
-                        <li className="py-2 hover:text-emerald-400">ABOUT</li>
-                        <li className="py-2 hover:text-emerald-400">CONTACT</li>
+                        <Link to='/'><li className="py-2 hover:text-emerald-400">HOME</li></Link>
+                        <Link to='/activities'><li className="py-2 hover:text-emerald-400">ACTIVITIES</li></Link>
+                        <Link to='/places'><li className="py-2 hover:text-emerald-400">PLACES</li></Link>
+                        <Link to='/about'><li className="py-2 hover:text-emerald-400">ABOUT</li></Link>
+                        <Link to='/contact'><li className="py-2 hover:text-emerald-400">CONTACT US</li></Link>
                     </ul>
                     <div>
                     <button 

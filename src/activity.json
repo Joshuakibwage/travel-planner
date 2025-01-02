@@ -15,7 +15,7 @@
         "id": 1,
         "title" : "Paragliding",
         "location" : "India",
-        "image" : "https://images.pexels.com/photos/15582961/pexels-photo-15582961/free-photo-of-a-person-with-a-parachute.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/15145558/pexels-photo-15145558/free-photo-of-man-on-parachute-flying-above-coastal-city.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "duration": "3 hrs",
@@ -23,7 +23,7 @@
         "id": 2,
         "title" : "Kayaking",
         "location" : "Croatia",
-        "image" : "https://images.pexels.com/photos/3413678/pexels-photo-3413678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/2749500/pexels-photo-2749500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         "duration": "2 nights",
@@ -31,7 +31,7 @@
         "id": 3,
         "title" : "Nightlife",
         "location" : "LasVegas",
-        "image" : "https://images.pexels.com/photos/13146356/pexels-photo-13146356.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/1782407/pexels-photo-1782407.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "duration": "4 hrs",
@@ -63,7 +63,7 @@
         "id": 7,
         "title" : "BirdWatching",
         "location" : "Ireland",
-        "image" : "https://images.pexels.com/photos/29982341/pexels-photo-29982341/free-photo-of-great-tit-perched-on-twig-in-lush-foliage.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/3908080/pexels-photo-3908080.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "duration": "7 hrs",
@@ -111,7 +111,7 @@
         "id": 13,
         "title" : "Sky diving",
         "location" : "Dubai",
-        "image" : "https://images.pexels.com/photos/28153230/pexels-photo-28153230/free-photo-of-sky-diving.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/27674517/pexels-photo-27674517/free-photo-of-a-person-is-flying-a-parachute-in-the-sky.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "duration": "3 hrs",
@@ -143,7 +143,7 @@
         "id": 13,
         "title" : "Spa retreats",
         "location" : "Thailand",
-        "image" : "https://images.pexels.com/photos/3212179/pexels-photo-3212179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "image" : "https://images.pexels.com/photos/6311800/pexels-photo-6311800.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
         "duration": "1 week",
@@ -160,6 +160,14 @@
         "title" : "Local markets",
         "location" : "Nigeria",
         "image" : "https://images.pexels.com/photos/29630134/pexels-photo-29630134/free-photo-of-african-market-scene-with-traditional-bowls-nigeria.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "title" : "Camel Riding",
+        "location" : "Qatar",
+        "id" : 14,
+        "duration" : "4 hrs",
+        "details" : "Camel riding is a popular activity in Qatar, offering a taste of traditional Bedouin life and a unique way to experience the desert landscape",
+        "image" : "https://images.pexels.com/photos/25662334/pexels-photo-25662334/free-photo-of-woman-with-headscarf-riding-camel-near-pyramid-in-egypt.jpeg?auto=compress&cs=tinysrgb&w=600"
     }
   
 ]

@@ -22,11 +22,11 @@ const SearchForm = () => {
  
 
   return (
-    <div className="w-[90%] mx-auto h-[40px] border-2 bg-gradient-to-r from-blue-400 to-emerald-400 border-none flex py-10 justify-around items-center rounded-md mt-5 shadow-lg relative">
+    <div className="w-[90%] h-[25%] mx-auto border-2 bg-gradient-to-r from-blue-400 to-emerald-400 border-none flex flex-col py-10 space-y-4 justify-around items-center rounded-md mt-5 shadow-lg relative md:flex-row md:h-[10%]">
 
         <div className="flex items-center gap-4 ">
           <FaLocationDot className="text-white " size={20} />
-          <input placeholder="Destination" className="outline-none py-2 pl-2 rounded" />
+          <input placeholder="Destination" className="outline-none py-2 pl-2 rounded w-[90%]" />
         </div>
 
         <div className="flex items-center gap-3">
