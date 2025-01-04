@@ -1,0 +1,142 @@
+[
+    {
+        "city" : "Nairobi",
+        "country" : "Kenya",
+        "id" : "0",
+        "description" : "Nairobi, the capital of Kenya, is a vibrant city blending modernity with rich cultural heritage.",
+        "image" : "https://images.pexels.com/photos/29891537/pexels-photo-29891537/free-photo-of-nairobi-cityscape-aerial-view-of-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Male",
+        "country" : "Maldives",
+        "id" : "1",
+        "description" : "Famous For: Pristine beaches, crystal-clear waters, luxury resorts, and vibrant marine life.",
+        "image" : "https://images.pexels.com/photos/12779029/pexels-photo-12779029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Stockholm",
+        "country" : "Sweden",
+        "id" : "2",
+        "description" : "Spread across 14 islands, it’s known for its stunning waterfront, green spaces, and Scandinavian design.",
+        "image" : "https://images.pexels.com/photos/29983021/pexels-photo-29983021/free-photo-of-serene-winter-walk-in-stockholm-neighborhood.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Singapore",
+        "country" : "Singapore",
+        "id" : "3",
+        "description" : "A global financial hub with futuristic architecture, lush gardens like Gardens by the Bay, and multicultural heritage.",
+        "image" : "https://images.pexels.com/photos/3152124/pexels-photo-3152124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Rome",
+        "country" : "Italy",
+        "id" : "4",
+        "description" : "The 'Eternal City,' brimming with ancient history and architecture, including the Colosseum, Vatican City, and the Roman Forum.",
+        "image" : "https://images.pexels.com/photos/1701595/pexels-photo-1701595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Ottawa",
+        "country" : "Canada",
+        "id" : "5",
+        "description" : "A charming city with landmarks like Parliament Hill and the Rideau Canal, offering a mix of culture and natural beauty.",
+        "image" : "https://images.pexels.com/photos/12158305/pexels-photo-12158305.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Bangkok",
+        "country" : "Thailand",
+        "id" : "6",
+        "description" : "A lively city known for its ornate temples, vibrant street markets, and bustling nightlife.",
+        "image" : "https://images.pexels.com/photos/29606389/pexels-photo-29606389/free-photo-of-unique-dragon-temple-wat-sampran-exterior-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Brasilia",
+        "country" : "Brazil",
+        "id" : "7",
+        "description" : "A planned city famous for its unique modernist architecture, including the iconic Cathedral of Brasília.",
+        "image" : "https://images.pexels.com/photos/878479/pexels-photo-878479.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Paris",
+        "country" : "France",
+        "id" : "8",
+        "description" : "The 'City of Light' is known for its iconic Eiffel Tower, romantic atmosphere, world-class art museums, and exquisite cuisine.",
+        "image" : "https://images.pexels.com/photos/28750221/pexels-photo-28750221/free-photo-of-eiffel-tower-at-dusk-in-paris-france.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Tokyo",
+        "country" : "Japan",
+        "id" : "9",
+        "description" : "A bustling metropolis blending tradition and modernity. Famous for its skyscrapers, historic temples, and unique cultural experiences.",
+        "image" : "https://images.pexels.com/photos/4151484/pexels-photo-4151484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "London",
+        "country" : "Unite KIngdom",
+        "id" : "10",
+        "description" : "A global hub for history, culture, and finance, featuring landmarks like the Tower of London, Buckingham Palace, and the British Museum.",
+        "image" : "https://images.pexels.com/photos/16212877/pexels-photo-16212877/free-photo-of-the-gherkin-skyscraper-in-london.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Washington, D.C",
+        "country" : "USA",
+        "id" : "11",
+        "description" : "The political heart of the U.S., home to the White House, Capitol Building, and numerous national monuments and museums.",
+        "image" : "https://images.pexels.com/photos/28436023/pexels-photo-28436023/free-photo-of-seattle-skyline-with-iconic-space-needle-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Beijing",
+        "country" : "China",
+        "id" : "12",
+        "description" : "A city rich in history, with sites like the Forbidden City, the Great Wall nearby, and a thriving modern culture.",
+        "image" : "https://images.pexels.com/photos/28298105/pexels-photo-28298105/free-photo-of-fushimi-inari-temple-japan.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Cairo",
+        "country" : "Egypt",
+        "id" : "13",
+        "description" : "The largest city in the Arab world, famous for the nearby Pyramids of Giza and its vibrant markets like Khan el-Khalili.",
+        "image" : "https://images.pexels.com/photos/15127356/pexels-photo-15127356/free-photo-of-ancient-sphinx-statue-in-desert.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Berlin",
+        "country" : "Germany",
+        "id" : "14",
+        "description" : "A city steeped in modern history, known for its art scene, nightlife, and landmarks like the Brandenburg Gate.",
+        "image" : "https://images.pexels.com/photos/30048101/pexels-photo-30048101/free-photo-of-berlin-cityscape-with-iconic-tv-tower.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Canberra",
+        "country" : "Australia",
+        "id" : "15",
+        "description" : "The political center of Australia, offering cultural attractions like the National Gallery and scenic landscapes around Lake Burley Griffin.",
+        "image" : "https://images.pexels.com/photos/13348780/pexels-photo-13348780.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Moscow",
+        "country" : "Russia",
+        "id" : "16",
+        "description" : "Known for its majestic Kremlin, Red Square, and rich history as the heart of Russia.",
+        "image" : "https://images.pexels.com/photos/753339/pexels-photo-753339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Reykjavik",
+        "country" : "Iceland",
+        "id" : "17",
+        "description" : "The world’s northernmost capital, known for its colorful buildings, geothermal pools, and proximity to natural wonders like geysers and glaciers.",
+        "image" : "https://images.pexels.com/photos/13908588/pexels-photo-13908588.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Mexico City",
+        "country" : "Mexico",
+        "id" : "18",
+        "description" : "A sprawling metropolis blending ancient history (like Teotihuacan pyramids) with modern urban culture and cuisine.",
+        "image" : "https://images.pexels.com/photos/586687/pexels-photo-586687.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Abu Dhabi",
+        "country" : "UAE",
+        "id" : "19",
+        "description" : "The capital of the UAE, offering modern attractions like the Sheikh Zayed Grand Mosque and cultural experiences at the Louvre Abu Dhabi.",
+        "image": "https://images.pexels.com/photos/337901/pexels-photo-337901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+]

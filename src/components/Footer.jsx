@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="w-full h-[20%] ">
         <div className="
-        w-[98%] h-[90%] my-2 mx-auto flex flex-col items-center space-y-4 shadow-lg rounded-md backdrop-blur-md py-4 md:flex-row md:justify-between">
+        w-[98%] h-[90%] my-2 mx-auto flex flex-col items-center space-y-4 shadow-lg rounded-md backdrop-blur-md py-4 md:flex-row md:justify-around">
          <div className="flex items-center">
             <LuTreePalm className="text-emerald-400" size={40}/>
             <div className="span tracking-tight text-3xl">
@@ -58,8 +58,8 @@ const Footer = () => {
          </div>
                             
         </div>
-        <div className="text-center mb-4 w-full bg-emerald-100">
-          <p className="py-2">&copy;2025 All rights reserved.</p>
+        <div className="text-center mb-2 w-full bg-emerald-200">
+          <p className="py-2 ">&copy;2025 All rights reserved Nomadics.</p>
         </div>
     </footer>
   )

@@ -17,6 +17,7 @@ import Footer from "../components/Footer";
   // }, []);
 
    return (
+     <>
      <div className="w-[90%]  mx-auto bg-slate-100">
       <h1 className="text-center text-3xl text-emerald-400 my-5">Activities</h1>
       <div className="w-3/4 shadow-md h-[40px] shadow-emerald-100 rounded-full mx-auto flex items-center px-6 ">
@@ -44,8 +45,10 @@ import Footer from "../components/Footer";
             </div>
           )
         }
-        <Footer />
+        
      </div>
+     <Footer />
+     </>
    )
  }
  
