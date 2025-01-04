@@ -138,5 +138,12 @@
         "id" : "19",
         "description" : "The capital of the UAE, offering modern attractions like the Sheikh Zayed Grand Mosque and cultural experiences at the Louvre Abu Dhabi.",
         "image": "https://images.pexels.com/photos/337901/pexels-photo-337901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+        "city" : "Lagos",
+        "country": "Nigeria",
+        "description" : "Lagos is the Nigeria's largest city and a major economic and cultural hub.",
+        "id" : "20",
+        "image" : "https://images.pexels.com/photos/16099111/pexels-photo-16099111/free-photo-of-traffic-jam-on-a-city-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
 ]
