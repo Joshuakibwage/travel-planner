@@ -34,7 +34,7 @@ const Footer = () => {
          <div>
           <ul className="flex flex-col items-center">
             <li className="font-semibold">Support</li>
-            <li className="text-emerald-400 hover:text-emerald-600">FAQS</li>
+            <Link to='faq'><li className="text-emerald-400 hover:text-emerald-600">FAQS</li></Link>
           </ul>
          </div>
          <div className="space-y-1">

@@ -7,6 +7,7 @@ import Places from "./pages/Places";
 import ErrorPage from "./pages/ErrorPage";
 import Footer from "./components/Footer";
 import ActivityPage from "./pages/ActivityPage";
+import Faq from "./components/Faq";
  
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path:'/contact',
     element:<><Navbar /><ContactUs /><Footer /></>
+  },
+  {
+    path: '/faq',
+    element:<><Navbar /><Faq /></>
   },
   {
     path:'*',
