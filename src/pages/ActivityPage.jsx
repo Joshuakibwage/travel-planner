@@ -1,5 +1,4 @@
 
-// import { useState, useEffect } from "react"
 import { BsSearch } from "react-icons/bs";
 import ActivityCard from "../components/ActivityCard";
 import Activities from "../activity.json";
@@ -9,13 +8,6 @@ import Footer from "../components/Footer";
  
  const ActivityPage = () => {
 
-  // const [activities, setActivities] = useState([]);
-  // const [searchTerm, setSearchTerm] = useState('');
-
-  // useEffect(() => {
-    
-  // }, []);
-
    return (
      <>
      <div className="w-[90%]  mx-auto bg-slate-100">
@@ -23,8 +15,6 @@ import Footer from "../components/Footer";
       <div className="w-3/4 shadow-md h-[40px] shadow-emerald-100 rounded-full mx-auto flex items-center px-6 ">
         <input 
           placeholder="Search for activities.."
-          // value={}
-          // onChange={() => ()}
           className="w-full outline-none py-1 rounded-full pl-4"
         />
         <button >
