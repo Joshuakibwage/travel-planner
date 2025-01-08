@@ -13,18 +13,18 @@ const Gallery = () => {
         </div>
            
         
-        <div className="columns-4 w-3/4 mx-auto gap-3 mt-4 ">
+        <div className="columns-4 w-3/4 mx-auto gap-3 mt-4">
             <div className="break-inside-avoid">
-                <img src={galleryImage2} className="rounded-md" alt="" />
+                <img src={galleryImage2} className="rounded-md" alt="image of people camping" />
             </div>
             <div className="break-inside-avoid">
-                <img src={galleryImage3} alt="" />
+                <img src={galleryImage3} alt="image of people camping" />
             </div>
             <div className="break-inside-avoid">
-                <img src={galleryImage4} alt="" />
+                <img src={galleryImage4} alt="image of people camping" />
             </div>
             <div className="break-inside-avoid">
-                <img src={galleryImage} alt="" />
+                <img src={galleryImage} alt="image of people camping" />
             </div>
         </div>
     </div>

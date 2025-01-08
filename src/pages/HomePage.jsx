@@ -36,22 +36,7 @@ const HomePage = () => {
                   <h1 className="text-2xl font-semibold font-mono text-emerald-400">Popular Places</h1>
                   <p className="text-sm text-slate-600">Explore Bali's beautiful beaches, roam Rome's historic streets, or seek <br /> adventure in Switzer lands breathtaking landscape.</p>
                 </div>
-                <div className="mt-2 w-3/4 mx-auto flex gap-4 items-center">
-                  <div className="max-w-xs rounded-md overflow-hidden relative group">
-                    <img src="https://images.pexels.com/photos/14530706/pexels-photo-14530706.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-                    <div className="absolute bg-gradient-to-t from-black/60 to-transparent flex items-center">
-                      <div>
-                        <p>Bali</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="max-w-xs rounded-md overflow-hidden">
-                    <img src=" https://images.pexels.com/photos/9967343/pexels-photo-9967343.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" />
-                  </div>
-                  <div className="max-w-xs rounded-md overflow-hidden">
-                    <img src=" https://images.pexels.com/photos/4253835/pexels-photo-4253835.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" />
-                  </div>
-                </div>
+                
               </div>
         </div>
         <Gallery />

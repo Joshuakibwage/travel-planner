@@ -1,11 +1,30 @@
 import contactImage from "../assets/bg-hero4.jpg"
-import { FaRegUser } from "react-icons/fa";
-import { MdOutlineMailOutline } from "react-icons/md";
 
 
 const ContactUs = () => {
 
- 
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "4a7c1e37-958a-4246-9e35-7c70fa717811");
+    console.log(FormData)
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
 
   return (
     <div className="w-full h-screen overflow-hidden relative">
@@ -15,49 +34,40 @@ const ContactUs = () => {
         src={contactImage} 
         alt="image of a water body" />
       </div>
-      <div className="absolute top-[10%] left-[18%] w-[60%] h-[80%] bg-white p-5">
+      <div className="absolute top-[10%] left-[18%] w-[60%] h-[80%] backdrop-blur-sm p-5">
        <div className="w-full h-full">
-        <div>
-          <h1 className="font-semibold text-xl font-poppins">GET IN TOUCH</h1>
-          <p className="text-slate-400">24/7 We will answer your questions and problems.</p>
-        </div>
-        <div className="border border-slate-400 flex items-center py-4 pl-4 gap-3 w-[100%] mt-3">
-          <FaRegUser size={20}/>
-          <input 
-            type="text"
-            name="name"
-            placeholder="Name" 
-            className="w-[80%] outline-none"
-            // value={formData.name}
-            // onChange={handleChange}
-          />
-        </div>
-        <div className="border border-slate-400 flex items-center py-4 pl-4 gap-3 w-[100%] mt-3">
-          <MdOutlineMailOutline size={20} />
-          <input 
-            type="text"
-            name="email"
-            placeholder="Email" 
-            className="w-[80%] outline-none"
-            // value={formData.email}
-            // onChange={handleChange}
-          />
-        </div>
-        <div className="border border-slate-400 flex items-center py-4 pl-4 gap-3 w-[100%] mt-3">
-          <textarea 
-            name="textarea" 
-            id="textarea" 
-            className="w-full h-[100px] outline-none " 
-            placeholder="Describe your issue."
-            // value={formData.textarea}
-            // onChange={handleChange}
-          />
-        </div>
-          <button 
-            type="submit" 
-            className="w-full bg-gradient-to-r from-blue-400 to-emerald-400 py-4 text-xl font-semibold text-white mt-4 hover:bg-emerald-600">
-            Send
-          </button>
+        <form action=""  className="max-w-md w-full mx-auto p-6 bg-emerald-50 rounded-md shadow-lg">
+        <h1 className="font-semibold text-xl font-poppins">GET IN TOUCH</h1>
+        <p className="text-slate-400">24/7 We will answer your questions and problems.</p>
+          <div className="mb-4">
+            <label 
+            htmlFor="Your Name" 
+            className="block text-sm font-semibold mb-2"
+            >Your Name</label>
+            <input 
+              placeholder="John Doe" 
+              className="w-full px-3 py-2 border rounded-lg focus:border-emerald-600 outline-none" required type="text" name="name" />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="" className="block text-sm font-semibold mb-2">Email</label>
+            <input 
+              placeholder="johndoe@example.com" 
+              className="w-full px-3 py-2 border rounded-lg focus:border-emerald-600 outline-none" required type="email" name="email" />
+          </div>
+          <div className="mb-4">
+            <label htmlFor="" className="block text-sm font-semibold mb-2">Your Message</label>
+            <textarea 
+              placeholder="Type your message here.." 
+              className="w-full px-3 py-2 border rounded-lg focus:border-emerald-600 outline-none" required type="password" name="password" />
+          </div>
+          <div>
+            <button onSubmit={onSubmit}  type="submit" className="bg-gradient-to-r from-blue-400 to-emerald-500 w-full py-4 text-white font-semibold hover:bg-gradient-to-r hover:from-blue-300 hover:to-emerald-400">
+              Submit
+            </button>
+          </div>
+        </form>
+           
+         
        </div>
       </div>
     </div>

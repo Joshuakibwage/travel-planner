@@ -24,7 +24,7 @@ const About = () => {
             <div className="w-full md:w-1/2">
               <p className="px-4 pt-2 md:text-xl text-center">Our mission is simple: to connect you with incredible destinations, provide expert tips, and help you discover hidden gems across the globe. Through carefully curated guides, firsthand experiences, and community insights, we aim to make your travels seamless and memorable.</p>
             </div>
-            <div className="w-full md:w-1/2 mt-4">
+            <div className="w-full md:w-1/2 mt-8">
               <img className="rounded-lg" src={missionImage} alt="" />
             </div>
           </div>
