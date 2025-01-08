@@ -59,9 +59,11 @@ const Navbar = () => {
                         <Link to='/contact'><li className="py-2 hover:text-emerald-400">CONTACT US</li></Link>
                     </ul>
                     <div>
-                    <button 
-                    className="sm:px-20 px-12 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-blue-400 to-emerald-500">BOOK A TRIP
-                        </button> 
+                        <Link to='/places'>
+                            <button 
+                                className="sm:px-20 px-12 py-2 rounded-lg text-white font-semibold bg-gradient-to-r from-blue-400 to-emerald-500">Explore
+                            </button> 
+                        </Link>
                     </div>
                 </div>
             )}
