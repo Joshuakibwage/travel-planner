@@ -7,6 +7,7 @@ import 'react-date-range/dist/theme/default.css'; // theme css file
 import format from "date-fns/format";
 // import { formatDate } from "date-fns";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const SearchForm = () => {
 
@@ -49,10 +50,12 @@ const SearchForm = () => {
         </div>
 
         <div className="">
-          <button className="flex items-center bg-white px-4 py-2 rounded-full hover:scale-110 transition delay-200 ease-in-out text-emerald-400 font-semibold shadow-inner">
-            <IoSearchOutline size={30} className="text-emerald-400"/>
-            Find my adventure
-          </button>
+          <Link to="/places">
+            <button className="flex items-center bg-white px-4 py-2 rounded-full hover:scale-110 transition delay-200 ease-in-out text-emerald-400 font-semibold shadow-inner">
+              <IoSearchOutline size={30} className="text-emerald-400"/>
+              Find my adventure
+            </button>
+          </Link>
         </div>
         
     </div>
