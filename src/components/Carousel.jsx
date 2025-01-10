@@ -1,43 +1,65 @@
-import { FaChevronLeft } from "react-icons/fa";
-import { FaChevronRight } from "react-icons/fa";
+import { useState } from "react";
+import { FaArrowCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight } from "react-icons/fa";
 
-const Carousel = () => {
+const Carousel = ({data}) => {
+   
+  const [current, setCurrent] = useState(0);
 
-  const slides =  [
-    {
-      url: 'https://images.pexels.com/photos/18088906/pexels-photo-18088906/free-photo-of-skyscrapers-around-the-petronas-twin-towers.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load'
-    },
-    {
-      url: 'https://images.pexels.com/photos/11313729/pexels-photo-11313729.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    },
-    {
-      url: 'https://images.pexels.com/photos/29891537/pexels-photo-29891537/free-photo-of-nairobi-cityscape-aerial-view-of-skyscrapers.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    },
-    {
-      url: 'https://images.pexels.com/photos/27730147/pexels-photo-27730147/free-photo-of-the-city-of-nile-and-the-river-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    },
-    {
-      url: 'https://images.pexels.com/photos/4880888/pexels-photo-4880888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    },
-    {
-      url: 'https://images.pexels.com/photos/3319708/pexels-photo-3319708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    }
-  ]
+  let nextSlide = () => {
+    if (current === data.length - 1) setCurrent(0);
+    else setCurrent(current + 1);
+  };
+
+  let prevSlide = () => {
+    if (current === 0) setCurrent(data.length - 1);
+    else setCurrent(current - 1);
+  };
 
   return (
-    <div className="max-w-[1400px] h-[320px] w-full m-auto py-8 px-4 relative">
-      <div style={{backgroundImage: `url(${slides[4].url})`}} className="w-full h-full rounded-2xl bg-center bg-cover duration-500">
-        {/* left arrow chevron */}
-        <div>
-          <FaChevronLeft size={40} className="text-white"/>
-        </div>
-        {/* right arrow chevron */}
-        <div>
-        <FaChevronRight size={40} className="text-white"/>
-        </div>
+    <div className=" w-[90%] h-[400px] mx-auto rounded-lg overflow-hidden relative mt-10 shadow-xl">
+     <div 
+     className="flex transition ease-out duration-400 w-full  "
+     style={{
+      transform: `translateX(-${current * 100}%)`,
+    }}
+     >
+      {data.map((item, index) => {
+          return <img src={item.src} alt={item.alt} key={index} />
+        })};
+     </div>
+
+      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10">
+        <button onClick={prevSlide}>
+          <FaArrowCircleLeft
+            size={30} 
+            
+            />
+        </button>
+        <button onClick={nextSlide}>
+          <FaArrowCircleRight  
+            size={30}
+            />
+        </button>
+      </div>
+    
+      <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+        {data.map((item, index) => {
+          return (
+            <div onClick={() => setCurrent(index)}
+            key={"circle" + index}
+            className={`rounded-full w-5 h-5 cursor-pointer ${
+              index === current ? "bg-white" : "bg-gray-500"
+            }`}
+            ></div>
+          )
+        })}
+      
       </div>
     </div>
   )
 }
 
 export default Carousel
+
+

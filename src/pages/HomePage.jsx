@@ -1,11 +1,14 @@
- import pic from "../assets/bg-hero.jpg";
- import { FaArrowCircleRight } from "react-icons/fa";
+import pic from "../assets/bg-hero.jpg";
+import { FaArrowCircleRight } from "react-icons/fa";
 import SearchForm from "../components/SearchForm";
 import ContactUs from "./ContactUs";
 import Faq from "../components/Faq";
 import { Link } from "react-router-dom";
 import WhyChooseUs from "../components/WhyChooseUs";
 import Gallery from "../components/Gallery";
+import Carousel from "../components/Carousel";
+import {slides} from "../utils/CarouselData.json";
+
  
 
 const HomePage = () => {
@@ -36,7 +39,7 @@ const HomePage = () => {
                   <h1 className="text-2xl font-semibold font-mono text-emerald-400">Popular Places</h1>
                   <p className="text-sm text-slate-600">Explore Bali's beautiful beaches, roam Rome's historic streets, or seek <br /> adventure in Switzer lands breathtaking landscape.</p>
                 </div>
-                
+               <Carousel data={slides}/>
               </div>
         </div>
         <Gallery />

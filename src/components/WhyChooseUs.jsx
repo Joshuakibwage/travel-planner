@@ -3,16 +3,26 @@
 const WhyChooseUs = () => {
   return (
     <div>
-        <div className="w-full h-screen text-center mt-6">
+        <div className="w-[90%] mx-auto h-[80vh] text-center mt-10 bg-emerald-50">
               <h1 className="font-semibold text-emerald-400 text-2xl md:4xl">
-                Why You Should <span className="bg-gradient-to-r from-blue-400 to-emerald-500 bg-clip-text text-transparent">Choose</span> Us</h1>
-              <div>
-                <ul>
-                  <li><i>Curated Experiences:</i> We share authentic, real-world travel experiences from diverse corners of the planet.</li>
-                  <li><i>Insider Tips:</i> Find recommendations on where to go, what to eat, and how to travel smarter.</li>
-                  <li><i>Community Spirit:</i> Join a community of passionate travelers who share stories, advice, and inspiration.</li>
-                  <li><i>Sustainability:</i> We advocate for responsible tourism to ensure that travel enriches both you and the destinations you visit.</li>
-                </ul>
+                Our <span className="bg-gradient-to-r from-blue-400 to-emerald-500 bg-clip-text text-transparent">Advantages</span> compared to others.</h1>
+              <div className="my-8 flex flex-col items-center space-y-6 md:flex-row md:items-center md:gap-8 md:flex-wrap md:place-content-center">
+                  <div className="max-w-xs shadow-md p-3 md:max-w-md md:py-10">
+                     <h1 className="text-xl text-emerald-700">Lots of choices</h1>
+                     <p className="text-start"> Discover captivating destinations to create to create memorable stories on your journey.</p>
+                  </div>
+                  <div className="max-w-xs shadow-md p-3 md:max-w-md md:py-10">
+                    <h1 className="text-xl text-emerald-700">Easy Booking</h1>
+                    <p className="text-start">Expert guides to unveil the wonders of the world and enhance your exploration.</p>
+                  </div>
+                  <div className="max-w-xs shadow-md p-3 md:max-w-md md:py-10">
+                    <h1 className="text-xl text-emerald-700">Best Tour Guide</h1>
+                    <p className="text-start">Expert guides to unveil the wonders of the world and enhance your exploration.</p>
+                  </div>
+                  <div className="max-w-xs shadow-md p-3 md:max-w-md md:py-10">
+                    <h1 className="text-xl text-emerald-700">Accommodation</h1>
+                    <p className="text-start">There are many choices of interesting places to make a story in your journey.</p>
+                  </div>
               </div>
             </div>
     </div>

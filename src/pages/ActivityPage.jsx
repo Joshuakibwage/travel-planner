@@ -1,7 +1,7 @@
 
 import { BsSearch } from "react-icons/bs";
 import ActivityCard from "../components/ActivityCard";
-import Activities from "../activity.json";
+import Activities from "../utils/activity.json";
 import Footer from "../components/Footer";
 
 
@@ -26,7 +26,7 @@ import Footer from "../components/Footer";
           ? (
             <div className="w-[98%] mt-10 flex flex-wrap items-center justify-center mx-auto gap-16">
               {Activities.map((activity) => (
-                <ActivityCard activity={activity} />
+                <ActivityCard activity={activity} key={activity.id} />
               ))}
             </div>
           ) : (

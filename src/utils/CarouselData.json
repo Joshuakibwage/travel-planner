@@ -1,0 +1,24 @@
+{
+    "slides" : [
+    {
+        "src" : "https://images.pexels.com/photos/6321144/pexels-photo-6321144.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt" : "Image 1 of carousel"
+    },
+    {
+        "src" : "https://images.pexels.com/photos/261204/pexels-photo-261204.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt" : "Image 2 of carousel"
+    },
+    {
+        "src" : "https://images.pexels.com/photos/28448947/pexels-photo-28448947/free-photo-of-scenic-view-of-santorini-architecture-and-aegean-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt" : "Image 3 of carousel"
+    },
+    {
+        "src" : "https://images.pexels.com/photos/2848207/pexels-photo-2848207.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt" : "Image 4 of carousel"
+    },
+    {
+        "src" : "https://images.pexels.com/photos/13831871/pexels-photo-13831871.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "alt" : "Image 5 of carousel"
+    }
+]
+}

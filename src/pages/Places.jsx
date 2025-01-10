@@ -1,5 +1,5 @@
 import PlacesCard from "../components/PlacesCard";
-import destinations from "../places.json";
+import destinations from "../utils/places.json";
 
 const Places = () => {
   return (
@@ -8,7 +8,7 @@ const Places = () => {
         (
           <div className="flex flex-wrap items-center justify-center gap-16 mt-10">
             {destinations.map((destination) => (
-              <PlacesCard destination={destination} />
+              <PlacesCard destination={destination} key={destination.id} />
             ))}
         </div>
         )  : (
